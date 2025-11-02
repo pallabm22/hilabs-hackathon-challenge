@@ -9,7 +9,7 @@
 A data-driven system for predicting **patient risk scores** by integrating multi-domain healthcare data, performing correlation-based feature engineering, applying **PCA**, and training machine learning & deep learning models.
 
 - Clean & merge healthcare datasets  
-- Engineer clinical + visit + care + diagnosis features  
+- Engineer care + diagnosis + patient + visit features  
 - Perform correlation analysis & PCA  
 - Train ML & NN models for risk score prediction  
 
@@ -25,7 +25,6 @@ A data-driven system for predicting **patient risk scores** by integrating multi
 -  Model evaluation using R², MAE, RMSE  
 -  Pipeline for both training & inference  
 
-> Healthcare risk prediction that balances **accuracy + interpretability**
 
 ---
 
@@ -130,25 +129,11 @@ This project leverages modern ML & data tools:
 
 ---
 
-### Reference Visuals
-
-- Correlation matrices (before & after feature filtering)  
-- PCA variance & feature reduction visuals  
-- ML pipeline and architecture overview  
-
----
-
-### 🎯 Impact
-
-This project demonstrates how **data-driven patient risk stratification** can support clinical decision-making.  
-By combining feature engineering, dimensionality reduction, and machine learning, the workflow is **scalable, interpretable, and applicable to real-world healthcare systems**.
-
----
 
 
 ### 📎 Reference Visuals
 
-## **Before & After Preprocessing Correlation**
+## **Correlation Matrix After & Before Irrelavant Feature Removal**
 ![Before and After Correlation](https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/After-Before%20preprocess-corr.png)
 
 
