@@ -58,10 +58,11 @@ This project leverages modern ML & data tools:
 ![Before and After Correlation](https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/After-Before%20preprocess-corr.png)
 
 **Correlation Matrix After Feature Removal**
-![Correlation Matrix](https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/corr-matrix.png)
+<img src="https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/corr-matrix.png" width="700">
 
 **Model Summary (Pipeline & Architecture)**
-![Model Summary](https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/model_summary.png)
+<img src="https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/model_summary.png" width="500">
+
 
 
 ## Installation
