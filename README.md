@@ -80,6 +80,7 @@ This project enables **proactive intervention** by predicting risk early — usi
 │   └── risk_visit.ipynb                   # Visit-risk relationship analysis
 │
 └── README.md                              # Project documentation
+|── requirement.txt                         
 
 ```
 ### Tech
