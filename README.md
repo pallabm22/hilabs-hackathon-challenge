@@ -37,7 +37,55 @@ This project enables **proactive intervention** by predicting risk early — usi
 
 > “Turning medical data into intelligent care decisions.”
 
----
+
+### 📂 Project File Structure
+
+```text
+├── Care_Analysis/
+│   ├── care.ipynb                         # Care data analysis
+│   └── risk_care.ipynb                    # Care data merged with risk table and correlation analysis
+│
+├── training_data_preprocessing/
+│   ├── Correlation_matrix_analysis        # Correlation computation with risk_score
+│   ├── Dataset/                           # Contains base datasets for merging
+│   └── merging_training_dataset.ipynb     # Final merged dataset for model training
+│
+├── Diagnosis_Analysis/
+│   ├── diagnosis.ipynb                    # Diagnosis-specific data exploration
+│   └── risk_diagnosis.ipynb               # Diagnosis-risk dataset merging and analysis
+│
+├── Experiments_models/
+│   ├── NN_Pred_without_PCA                                  # ML models without PCA 
+│   ├── NN_model.ipynb                                       # Neural Network baseline without PCA 
+│   └── ML_Models_Pred_params_trainging.ipynb                # Grid/Random Search optimization without PCA 
+│
+├── Model/
+|   ├── Model_Training_with_PCA.ipynb      # PCA-based model training
+│   └── Model_Training_Testing_PCA.ipynb  # PCA pipeline for training-testing pipeline
+│
+├── Patient_Analysis/
+│   ├── patient.ipynb                      # Patient-level data insights
+│   └── patient_risk.ipynb                 # Patient data merged with risk for correlation analysis
+│
+├── Pcms_hackathon_data/
+│   ├── Train                              # Raw training dataset
+│   └── Test                               # Raw testing dataset
+│
+├── Risk_Analysis/
+│   └── risk_analysis.ipynb                # Risk table structure and analysis
+│
+├── test_data_processing/
+│   ├── processing_test_dataset       # Test data preprocessing
+│   ├── processed_test_dataset        # Cleaned test dataset
+│   └── merge_test_dataset.ipynb           # Merging test dataset with risk table
+│
+├── Visits_Analysis/
+│   ├── visit.ipynb                        # Visit data exploration
+│   └── risk_visit.ipynb                   # Visit-risk relationship analysis
+│
+└── README.md                              # Project documentation
+
+
 
 ## Tech
 
@@ -54,13 +102,16 @@ This project leverages modern ML & data tools:
 
 ### 📎 Reference Visuals
 
-**Before & After Preprocessing Correlation**
+## **Before & After Preprocessing Correlation**
 ![Before and After Correlation](https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/After-Before%20preprocess-corr.png)
 
-**Correlation Matrix After Feature Removal**
+
+## **Correlation Matrix After Feature Removal**
 <img src="https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/corr-matrix.png" width="700">
 
-**Model Summary (Pipeline & Architecture)**
+
+
+## **Model Summary (Pipeline & Architecture)**
 <img src="https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/model_summary.png" width="500">
 
 
