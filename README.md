@@ -12,19 +12,18 @@ A data-driven system for predicting **patient risk scores** by integrating multi
 - Engineer clinical + visit + care + diagnosis features  
 - Perform correlation analysis & PCA  
 - Train ML & NN models for risk score prediction  
-- ✨ Actionable insights for smarter healthcare ✨
 
 ---
 
 ## Features
 
-- 🔗 Multi-source healthcare dataset integration  
-- 🧼 Advanced preprocessing & feature engineering  
-- 📊 Correlation-based feature selection  
-- 🧠 ML + Neural Network training pipelines  
-- 📉 PCA for 95% variance retention  
-- ✅ Model evaluation using R², MAE, RMSE  
-- 📦 Pipeline for both training & inference  
+-  Multi-source healthcare dataset integration  
+-  Advanced preprocessing & feature engineering  
+-  Correlation-based feature selection  
+-  ML + Neural Network training pipelines  
+-  PCA for 95% variance retention  
+-  Model evaluation using R², MAE, RMSE  
+-  Pipeline for both training & inference  
 
 > Healthcare risk prediction that balances **accuracy + interpretability**
 
@@ -35,7 +34,6 @@ A data-driven system for predicting **patient risk scores** by integrating multi
 Healthcare systems often react **after** patients deteriorate.  
 This project enables **proactive intervention** by predicting risk early — using structured medical data + machine learning.
 
-> “Turning medical data into intelligent care decisions.”
 
 
 ### 📂 Project File Structure
@@ -85,20 +83,68 @@ This project enables **proactive intervention** by predicting risk early — usi
 │
 └── README.md                              # Project documentation
 
-
-
-## Tech
+```
+### Tech
 
 This project leverages modern ML & data tools:
 
-- 🐍 Python 3.10  
-- 📦 Pandas & NumPy — data processing  
-- 🤖 scikit-learn — ML + PCA + pipelines  
-- 🧠 TensorFlow — neural network baseline  
-- 📊 Matplotlib & Seaborn — visualizations  
-- 🧮 Graphviz / Pydot — model pipelines  
+-  Python 3.10  
+-  Pandas & NumPy — data processing  
+-  scikit-learn — ML + PCA + pipelines  
+-  TensorFlow — neural network baseline  
+-  Matplotlib & Seaborn — visualizations   
 
 ---
+
+
+### 🔄 Workflow & Methodology
+
+#### **1. Data Preprocessing & Integration**
+- Extracted multiple features for each dataset
+- Merged multiple datasets with a central `risk_score` table  
+- Cleaned missing values and encoded categorical features  
+- Standardized fields across healthcare domains  
+
+#### **2. Correlation Analysis & Feature Selection**
+- Computed correlations with `risk_score`
+- Identified top predictive features  
+- Selected strongest positively correlated variables  
+
+#### **3. Dimensionality Reduction with PCA**
+- Applied Principal Component Analysis  
+- Reduced 42 high-correlation features to **21 principal components**
+- Preserved **95% of variance**  
+
+#### **4. Model Development & Evaluation**
+- Baseline models: *Linear Regression, Random Forest, XGBoost, Neural Networks*  
+- PCA-enhanced ML pipelines for efficiency & interpretability  
+- Hyperparameter tuning: *GridSearchCV / RandomizedSearchCV*  
+- Metrics used: **R²**, **RMSE**, **MAE**  
+
+---
+
+### Key Insights
+
+- PCA successfully removed redundancy while retaining predictive performance  
+- Cross-domain data fusion improved model generalization  
+
+---
+
+### Reference Visuals
+
+- Correlation matrices (before & after feature filtering)  
+- PCA variance & feature reduction visuals  
+- ML pipeline and architecture overview  
+
+---
+
+### 🎯 Impact
+
+This project demonstrates how **data-driven patient risk stratification** can support clinical decision-making.  
+By combining feature engineering, dimensionality reduction, and machine learning, the workflow is **scalable, interpretable, and applicable to real-world healthcare systems**.
+
+---
+
 
 ### 📎 Reference Visuals
 
@@ -106,7 +152,7 @@ This project leverages modern ML & data tools:
 ![Before and After Correlation](https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/After-Before%20preprocess-corr.png)
 
 
-## **Correlation Matrix After Feature Removal**
+## **Correlation Matrix After Irrelavant Feature Removal**
 <img src="https://github.com/pallabm22/hilabs-hackathon-challenge/blob/main/corr-matrix.png" width="700">
 
 
