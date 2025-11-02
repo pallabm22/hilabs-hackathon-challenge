@@ -152,5 +152,5 @@ This project leverages modern ML & data tools:
 ```sh
 conda create --name hilabs python=3.10
 conda activate hilabs
-pip install pandas numpy scikit-learn tensorflow pydot graphviz ipykernel
+pip install pandas numpy scikit-learn tensorflow ipykernel
 python -m ipykernel install --user --name=Hilabs --display-name "Hilabs"
