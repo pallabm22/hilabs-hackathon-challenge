@@ -57,7 +57,7 @@ This project enables **proactive intervention** by predicting risk early — usi
 │
 ├── Model/
 |   ├── Model_Training_with_PCA.ipynb      # PCA-based model training
-│   └── Model_Training_Testing_PCA.ipynb  # PCA pipeline for training-testing pipeline
+│   └── Model_Training_Testing_PCA.ipynb   # Main PCA pipeline for training-testing pipeline
 │
 ├── Patient_Analysis/
 │   ├── patient.ipynb                      # Patient-level data insights
