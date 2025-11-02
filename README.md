@@ -40,8 +40,7 @@ This project enables **proactive intervention** by predicting risk early — usi
 ```text
 ├── Care_Analysis/
 │   ├── care.ipynb                         # Care data analysis
-│   └── risk_care.ipynb                    # Care data merged with risk table and correlation analysis
-│
+│   └── risk_care.ipynb                    # Care data merged with risk table
 ├── training_data_preprocessing/
 │   ├── Correlation_matrix_analysis        # Correlation computation with risk_score
 │   ├── Dataset/                           # Contains base datasets for merging
