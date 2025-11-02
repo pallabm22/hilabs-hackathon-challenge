@@ -149,8 +149,6 @@ This project leverages modern ML & data tools:
 
 ## Installation
 
-You need **Conda (recommended)** or Python 3.10+.
-
 ```sh
 conda create --name hilabs python=3.10
 conda activate hilabs
